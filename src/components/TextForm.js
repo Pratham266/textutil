@@ -30,7 +30,7 @@ export default function TextForm(props) {
 
   const handleBlClick = () => {
     let newText = (document.getElementById("myBox").style.fontWeight = "500");
-
+    console.log(newText);
     props.showAlert("Converted to Bold.", "success");
   };
 
